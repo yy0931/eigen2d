@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eigenvectors</title>
+    <style>
+        #canvas {
+            background-color: white;
+        }
+        input[type="number"] {
+            width: 100px;
+        }
+        .A {
+            display: inline-block;
+            vertical-align: top;
+        }
+    </style>
+</head>
+<body>
+    <div style="display:none;">
+        <img id="img" src="./507px-Mona_Lisa.jpg">
+    </div>
+    <canvas id="canvas" width="350" height="350"></canvas>
+    <div class="A">
+        <input id="a11" type="number" value="1" autocomplete="off"><input id="a12" type="number" value="0" autocomplete="off"><br>
+        <input id="a21" type="number" value="0" autocomplete="off"><input id="a22" type="number" value="1" autocomplete="off">
+    </div>
+    <div id="output"></div>
+    <script>
+    var global = window
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/eigen@0.2.0/dist/index.min.js"></script>
+    <script type="module" src="./index.js"></script>
+</body>
+</html>

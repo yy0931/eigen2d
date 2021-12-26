@@ -1,0 +1,16 @@
+{
+  "name": "eigen2d",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "esbuild --bundle --outfile=index.js --watch index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.14.8",
+    "typescript": "^4.5.4"
+  }
+}
